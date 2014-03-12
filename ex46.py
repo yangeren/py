@@ -1,8 +1,8 @@
- try:
+try:
      from setuptools import setup
- except ImportError:
+except ImportError:
      from distutils.core import setup
- config = {
+config = {
      'description': 'My Project',
      'author': 'My Name',
      'url': 'URL to get it at.',
@@ -13,8 +13,8 @@
      'packages': ['NAME'],
      'scripts': [],
      'name': 'projectname'
- }
- setup(**config)
+} 
+setup(**config)
 
 
 #email:xiaoyaoyangeren#163.com
